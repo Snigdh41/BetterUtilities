@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>BetterUtilities</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Your Name</Authors>
+    <Company>Your Company</Company>
+    <Product>BetterUtilities</Product>
+    <Description>A collection of utility classes and methods to enhance .NET development productivity</Description>
+    <PackageTags>utilities;helpers;extensions;dotnet</PackageTags>
+    <PackageProjectUrl>https://github.com/yourusername/BetterUtilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yourusername/BetterUtilities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
